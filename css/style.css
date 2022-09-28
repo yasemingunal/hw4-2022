@@ -152,7 +152,7 @@ first div in the grid  and place it in the grid. */
       /*This will be a lot of rules.... but be strategic and combine seletors*/
 
 .about, .method, .clients, .contact{
-  grid-column: 2 / -1;
+  grid-column: 2 / span 1;
 } 
 
 .about{

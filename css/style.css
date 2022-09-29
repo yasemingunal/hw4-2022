@@ -116,14 +116,13 @@ nav li:hover, nav li:focus{
 .skip{
   font-weight:bold; 
   position:absolute;
-  margin-top:-40px;
+  margin:-40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip:focus{
-  position:absolute;
-  margin-bottom:20px; /* fix this */
-}
+  margin:40px; 
+} 
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 *:focus{ 
@@ -208,10 +207,7 @@ nav{
   grid-column: 2 / span 2;
 }
 
-
  /* Step 13:Write the selector/rule property to update the .text-block class */
-
-
  .text-block{
   max-height:250px;
   overflow:scroll;

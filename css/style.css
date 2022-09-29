@@ -137,12 +137,11 @@ nav li:hover, nav li:focus{
   row-gap: 15px;
 }
 
-
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
 .container > div:first-child{
   grid-column:1 / -1;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
